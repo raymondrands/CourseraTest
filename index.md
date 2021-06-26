@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale-1">
+	  <title>Module 2 solution</title>
+	  <link rel="stylesheet"  href="css\module2styles.css">
 
-You can use the [editor on GitHub](https://github.com/raymondrands/CourseraTest/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/raymondrands/CourseraTest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body>
+	  <header>
+		    <nav>
+			      <a href = "">Home</a>
+			      <a href = "">About</a>
+			      <a href = "">News</a>
+			      <a href = "">Media</a>
+		    </nav>
+	  </header>
+<h1>Our Menu</h1>
+<div class='row'>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='nr1'>Chicken</span>
+			<p id="p1">Did you know that “chicken breast recipes” are one of the most highly searched things on Google? I realized that while I have a lot of chicken recipes, I hardly have any that call for chicken breasts, and they are actually something I cook A LOT around here. For years I have been using a method that yields the most tender and juicy chicken, which is important because let’s face it, chicken breasts, especially baked, are usually bone dry. It’s so easy to dry out chicken breast because there’s very little fat.</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-6 sx-12'>
+				<div class='section'>
+					<span id='nr2'>Beef</span>
+					<p id="p2">Beef tongue is one of the BEST cuts you’ve probably never been game enough to try. Sometimes people are freaked out by the appearance, sometimes it’s because they just have no idea how to cook it. Problem solved, as I come at you with my ultimate beef tongue recipe. PLEASE, trust me on this one. I know some people are totally grossed out by offal or nasty bits of the animal. I myself am not a huge fan of brains, tripe, or anything with a weird texture or flavor. As long as you can get past the visual appearance of tongue, you’ll find it is one of the most sumptuous and rich cut on the steer.</p>
+			    </div>
+	</div>
+<div class='col-lg-4 col-md-12 sx-12'>
+		<div class='section'>
+			<span id='nr3'>Sushi</span>
+			<p id="p3">Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari, or sumeshi. We are fortunate to have access to sushi grade raw fish, but you can still make sushi at home if you can’t find some. Shrimp tempura rolls are one of my favorites, or you could do a California roll or a veggie roll. One of our favorites is a Philly roll, with smoked salmon, cream cheese, avocado, and cucumber.</p>
+		</div>
+</div>
+</div>
+</body>
+</html>
